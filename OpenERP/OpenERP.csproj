@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AbrPlus.Integration.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>AbrPlus.Integration.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <Company>AbrPlus</Company>
+    <Authors>AbrPlus</Authors>
+    <Owners>AbrPlus</Owners>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Description>Copyright © AbrPlus 2024</Description>
+
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputPath>..\.nuget\PublishPublic\</OutputPath>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SeptaKit.Autofac" Version="8.0.2" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.3" />
+    <PackageReference Include="System.Text.Json" Version="8.0.1" />
+  </ItemGroup>
+  
+</Project>

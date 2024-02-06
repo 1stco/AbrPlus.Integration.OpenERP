@@ -1,0 +1,18 @@
+[submodule "OpenERP.SampleERP"]
+	path = All/OpenERP.SampleERP
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.SampleERP.git
+[submodule "OpenERP.Rahkaran"]
+	path = All/OpenERP.Rahkaran
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Rahkaran.git
+[submodule "OpenERP.Sepidar"]
+	path = All/OpenERP.Sepidar
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Sepidar.git
+[submodule "OpenERP.Faranegar"]
+	path = All/OpenERP.Faranegar
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Faranegar.git
+[submodule "OpenERP.Payvast"]
+	path = All/OpenERP.Payvast
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Payvast.git
+[submodule "OpenERP.Tadbir"]
+	path = All/OpenERP.Tadbir
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Tadbir.git

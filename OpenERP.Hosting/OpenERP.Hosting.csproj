@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>AbrPlus.Integration.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>AbrPlus.Integration.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <Company>AbrPlus</Company>
+    <Authors>AbrPlus</Authors>
+    <Owners>AbrPlus</Owners>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Description>Copyright © AbrPlus 2024</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputPath>..\.nuget\PublishPublic\</OutputPath>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="Certs\localhost.pfx" />
+    <None Remove="Configs\appsettings.global.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Certs\localhost.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\appsettings.global.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SeptaKit.Hosting.AspNetCore" Version="8.0.2" />
+    <PackageReference Include="SeptaKit.Repository.EFCore.SqlServer" Version="8.0.2" />
+    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.2" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.60.0" />
+    <PackageReference Include="ServiceModel.Grpc.AspNetCore" Version="1.8.0" />
+    <PackageReference Include="SoapCore" Version="1.1.0.41" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenERP\OpenERP.csproj" />
+  </ItemGroup>
+</Project>
