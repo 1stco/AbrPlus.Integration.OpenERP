@@ -22,16 +22,6 @@ namespace AbrPlus.Integration.OpenERP.Hosting.NetFx.Services
             connectionStr = connectionString;
             _scriptExe = new ScriptExecute(connectionString);
             _databaseName = new SqlConnectionStringBuilder(connectionString).InitialCatalog;
-
-            SqlConnectionStringBuilder scb = new SqlConnectionStringBuilder(connectionString);
-            scb.InitialCatalog = "PgIntegration";
-            _scriptExePgIntegration = new ScriptExecute(scb.ConnectionString);
-
-            var finacialSystemType = _scriptExePgIntegration.GetSingleValue<int?>("SELECT FinancialSystemType FROM dbo.FinancialSystemServicePoint");
-            if (finacialSystemType.HasValue && finacialSystemType.Value == 2)//آیا سیستم مالی همکاران سیستم هست؟
-            {
-                FinancialSystemIsHamkaran = true;
-            }
         }
 
         /// <summary>Enables the table tracking. </summary>
