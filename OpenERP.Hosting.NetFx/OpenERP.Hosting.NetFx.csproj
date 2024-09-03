@@ -7,9 +7,9 @@
     <Company>AbrPlus</Company>
     <Authors>AbrPlus</Authors>
     <Owners>AbrPlus</Owners>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
     <Description>Copyright © AbrPlus 2024</Description>
   </PropertyGroup>
   
@@ -30,24 +30,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AbrPlus.Integration.OpenERP" Version="1.0.1" />
-    <PackageReference Include="Autofac" Version="8.0.0" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Autofac" Version="8.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Autofac.Wcf" Version="7.0.0" />
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
-    <PackageReference Include="SeptaKit" Version="8.0.10" />
-    <PackageReference Include="SeptaKit.Caching" Version="8.0.10" />
-    <PackageReference Include="SeptaKit.Hosting" Version="8.0.10" />
-    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.10" />
-    <PackageReference Include="SeptaKit.ServiceModel.Http" Version="8.0.10" />
-    <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
-    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />    <PackageReference Include="Serilog" Version="4.0.0" />
-    <PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
-    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="SeptaKit" Version="8.0.16" />
+    <PackageReference Include="SeptaKit.Caching" Version="8.0.20" />
+    <PackageReference Include="SeptaKit.Hosting" Version="8.0.16" />
+    <PackageReference Include="SeptaKit.Repository.EF" Version="8.0.17" />
+    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.16" />
+    <PackageReference Include="SeptaKit.ServiceModel.Http" Version="8.0.16" />
+    <PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />    
+    <PackageReference Include="Serilog.Settings.AppSettings" Version="3.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.1" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.3" />
-    <PackageReference Include="System.Text.Json" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenERP\OpenERP.csproj" />
   </ItemGroup>
 
   <ItemGroup>

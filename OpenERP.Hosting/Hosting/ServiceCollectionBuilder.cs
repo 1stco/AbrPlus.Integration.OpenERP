@@ -4,9 +4,7 @@ using AbrPlus.Integration.OpenERP.Options;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SeptaKit.ServiceModel.Grpc;
-using ServiceModel.Grpc.Client;
 using ServiceModel.Grpc.Configuration;
-using ServiceModel.Grpc.Interceptors;
 using SoapCore;
 
 namespace AbrPlus.Integration.OpenERP.Hosting.Hosting

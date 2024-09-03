@@ -16,3 +16,6 @@
 [submodule "OpenERP.Tadbir"]
 	path = All/OpenERP.Tadbir
 	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Tadbir.git
+[submodule "OpenERP.Hamkaran"]
+	path = All/OpenERP.Hamkaran
+	url = https://github.com/1stco/AbrPlus.Integration.OpenERP.Hamkaran.git
