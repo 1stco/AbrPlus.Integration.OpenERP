@@ -7,9 +7,9 @@
     <Company>AbrPlus</Company>
     <Authors>AbrPlus</Authors>
     <Owners>AbrPlus</Owners>
-    <Version>1.0.3</Version>
-    <AssemblyVersion>1.0.3</AssemblyVersion>
-    <FileVersion>1.0.3</FileVersion>
+    <Version>1.0.5</Version>
+    <AssemblyVersion>1.0.5</AssemblyVersion>
+    <FileVersion>1.0.5</FileVersion>
     <Description>Copyright © AbrPlus 2024</Description>
   </PropertyGroup>
   
@@ -30,15 +30,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="8.1.0" />
+    <PackageReference Include="Autofac" Version="8.1.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Autofac.Wcf" Version="7.0.0" />
-    <PackageReference Include="SeptaKit" Version="8.0.16" />
-    <PackageReference Include="SeptaKit.Caching" Version="8.0.20" />
-    <PackageReference Include="SeptaKit.Hosting" Version="8.0.16" />
-    <PackageReference Include="SeptaKit.Repository.EF" Version="8.0.17" />
-    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.16" />
-    <PackageReference Include="SeptaKit.ServiceModel.Http" Version="8.0.16" />
+    <PackageReference Include="SeptaKit" Version="8.0.23" />
+    <PackageReference Include="SeptaKit.Caching" Version="8.0.23" />
+    <PackageReference Include="SeptaKit.Hosting" Version="8.0.23" />
+    <PackageReference Include="SeptaKit.Repository.EF" Version="8.0.23" />
+    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.24" />
+    <PackageReference Include="SeptaKit.ServiceModel.Http" Version="8.0.27" />
     <PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
     <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />    
     <PackageReference Include="Serilog.Settings.AppSettings" Version="3.0.0" />
