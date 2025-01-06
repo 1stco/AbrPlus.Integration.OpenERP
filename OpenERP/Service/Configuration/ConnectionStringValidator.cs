@@ -35,7 +35,8 @@ namespace AbrPlus.Integration.OpenERP.Service.Configuration
                 DataSource = dataSource,
                 IntegratedSecurity = integratedSecurity,
                 UserID = userId,
-                Password = password
+                Password = password,
+                TrustServerCertificate = true,
             };
 
             return Validate(builder.ConnectionString, out message);
