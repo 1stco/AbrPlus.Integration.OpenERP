@@ -7,9 +7,9 @@
     <Company>AbrPlus</Company>
     <Authors>AbrPlus</Authors>
     <Owners>AbrPlus</Owners>
-    <Version>1.0.5</Version>
-    <AssemblyVersion>1.0.5</AssemblyVersion>
-    <FileVersion>1.0.5</FileVersion>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.6</AssemblyVersion>
+    <FileVersion>1.0.6</FileVersion>
     <Description>Copyright © AbrPlus 2024</Description>
 
   </PropertyGroup>
@@ -21,10 +21,10 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="SeptaKit.Autofac" Version="8.0.23" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="SeptaKit.Autofac" Version="8.0.32" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.3" />
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>

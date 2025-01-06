@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbrPlus.Integration.OpenERP.Repository;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SeptaKit.Models;
 using SeptaKit.Repository.EFCore;
-using Microsoft.Extensions.Logging;
+using System;
 using System.Data;
-using Microsoft.EntityFrameworkCore;
-using System.Data.SqlClient;
-using AbrPlus.Integration.OpenERP.Repository;
+using System.Threading.Tasks;
 
 namespace AbrPlus.Integration.OpenERP.Hosting.Repository
 {

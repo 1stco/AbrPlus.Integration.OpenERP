@@ -7,9 +7,9 @@
     <Company>AbrPlus</Company>
     <Authors>AbrPlus</Authors>
     <Owners>AbrPlus</Owners>
-    <Version>1.0.5</Version>
-    <AssemblyVersion>1.0.5</AssemblyVersion>
-    <FileVersion>1.0.5</FileVersion>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.6</AssemblyVersion>
+    <FileVersion>1.0.6</FileVersion>
     <Description>Copyright © AbrPlus 2024</Description>
   </PropertyGroup>
 
@@ -33,11 +33,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SeptaKit.Hosting.AspNetCore" Version="8.0.23" />
-    <PackageReference Include="SeptaKit.Repository.EFCore.SqlServer" Version="8.0.23" />
-    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.24" />
-    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.66.0" />
-    <PackageReference Include="ServiceModel.Grpc.AspNetCore" Version="1.11.0" />
+    <PackageReference Include="SeptaKit.Hosting.AspNetCore" Version="8.0.32" />
+    <PackageReference Include="SeptaKit.Repository.EFCore.SqlServer" Version="8.0.32" />
+    <PackageReference Include="SeptaKit.ServiceModel.Grpc" Version="8.0.32" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.67.0" />
+    <PackageReference Include="ServiceModel.Grpc.AspNetCore" Version="1.11.1" />
     <PackageReference Include="SoapCore" Version="1.1.0.51" />
   </ItemGroup>
   <ItemGroup>
